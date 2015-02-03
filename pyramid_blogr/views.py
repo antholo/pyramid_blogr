@@ -72,4 +72,3 @@ def sign_in_out(request):
         headers = forget(request)
     return HTTPFound(location=request.route_url('home'),
         headers=headers)
-    return {}
